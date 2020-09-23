@@ -15,7 +15,6 @@ print(songs)
 
 #Q4 three songs added
 songs.append("The Man")
-# songs.prepend("Happy") # .prepend() not working sent Jess a slack mesage about it
 songs.extend(["Happy"])
 songs.insert(0, "Musice Is My Hot Hot Sex")
 print(songs)
