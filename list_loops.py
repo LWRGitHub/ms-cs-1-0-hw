@@ -23,3 +23,11 @@ print(songs)
 #Q4 Delete a song
 del songs[2]
 print(songs)
+
+#Q6
+animals = ["Cat", "Dog", "Bird"]
+animals.append("Rat")
+print(animals[2])
+del animals[0]
+for animal in animals:
+    print(animal)
