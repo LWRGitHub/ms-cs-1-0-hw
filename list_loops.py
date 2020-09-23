@@ -14,7 +14,7 @@ songs[2] = "Treat You Better"
 print(songs)
 
 #Q4 three songs added
-songs.append("If I Was a Man")
+songs.append("The Man")
 # songs.prepend("Happy") # .prepend() not working sent Jess a slack mesage about it
 songs.extend(["Happy"])
 songs.insert(0, "Musice Is My Hot Hot Sex")
