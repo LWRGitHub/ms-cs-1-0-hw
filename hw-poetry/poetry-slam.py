@@ -13,7 +13,9 @@ def lines_printed_backwards(lines_list):
     for num in reversed(num_list):
         print(f"{num_list[num]} {lines_list[num]}")
 
-def lines_printed_random(lines_list):
+def lines_printed_random():
+
+def lines_printed_custom(lines_list):
     """ every other letter is capital """
     for line in lines_list:
         string = ''
