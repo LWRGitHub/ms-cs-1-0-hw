@@ -3,7 +3,7 @@
 songs = ["ROCKSTAR", "Do It", "For The Night"]
 
 #Q2 print out 1st & 2nd items in list
-print(songs[1])
+print(songs[0])
 print(songs[2])
 
 #Q2 printed "Do It"and "For The Night"
