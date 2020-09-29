@@ -44,6 +44,7 @@ def lines_printed_custom(lines_list):
 
 #S1
 def stretch_write_file(lines_list):
+    """ creates file """ 
     file_name = f"{input('Please enter a file name for the file: ')}.txt"
     f = open(file_name, "w")
 
@@ -65,6 +66,7 @@ def stretch_write_file(lines_list):
 
 #S2
 def stretch_menu():
+    """ stretch menu that you can select from """
     poem_list = get_file_lines("poem.txt")
 
     answer = input('Enter "backwards", "random", "write poem to file" or "custom" to see the poem printed in that way. Or type "done" to exit: ')
