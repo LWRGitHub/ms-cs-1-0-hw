@@ -1,3 +1,5 @@
+import random
+
 def get_file_lines(filename):
     """ gets file & puts it in a list """
     file_line = open(filename, 'r')
@@ -14,6 +16,14 @@ def lines_printed_backwards(lines_list):
         print(f"{num_list[num]} {lines_list[num]}")
 
 def lines_printed_random(lines_list):
+    """ prints random lines """
+    num_list = range(len(lines_list))
+    num_list = list(num_list)
+
+    for i in num_list:
+        num = random.randrange(10)
+        print(lines_list[num])
+  
 
 def lines_printed_custom(lines_list):
     """ every other letter is capital """
@@ -29,9 +39,15 @@ def lines_printed_custom(lines_list):
                 string += line[i]
         print(string)
 
+# def get_file_lines():
+    
+
 
 poem_list = get_file_lines("poem.txt")
 
 lines_printed_backwards(poem_list)
 
+lines_printed_random(poem_list)
+
 print(lines_printed_random(poem_list))
+
