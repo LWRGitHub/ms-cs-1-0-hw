@@ -51,3 +51,5 @@ lines_printed_random(poem_list)
 
 print(lines_printed_random(poem_list))
 
+print(lines_printed_custom(poem_list))
+
