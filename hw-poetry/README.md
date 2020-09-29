@@ -2,7 +2,7 @@
 
 use in terminial by typing 'python3 poetry-slam.py'
 
-What does app do?
+### What does app do?
 -gets file & puts it in a list 
 -prints lines backwards with line number 
 -prints random lines 
